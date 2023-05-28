@@ -1,0 +1,81 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Titlu mare -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sistem IoT"
+
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- Subcapitol 1 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ce este IoT?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp" />
+
+        <!-- Conținut subcapitol 1 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  IoT reprezintă conceptul de interconectare a dispozitivelor fizice prin intermediul internetului, permițându-le să comunice și să interacționeze între ele fără intervenția umană directă. Aceste dispozitive pot fi diverse, de la electrocasnice și dispozitive de iluminat la senzori și echipamente industriale."
+            android:paddingTop="8dp" />
+
+        <!-- Subcapitol 2 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Funcționarea sistemului IoT"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp" />
+
+        <!-- Conținut subcapitol 2 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sistemul IoT este compus din mai multe elemente cheie. Dispozitivele IoT sunt echipate cu senzori și module de comunicație pentru a colecta și transmite datele către o platformă sau un server central. Aceste date sunt apoi prelucrate și analizate pentru a obține informații utile. Utilizatorii pot accesa și controla dispozitivele IoT prin intermediul aplicațiilor mobile sau a interfețelor web. Sistemul IoT este o rețea interconectată de dispozitive fizice, senzori și actuatori, care colectează și transmit date pentru a facilita monitorizarea și controlul în timp real.Datele sunt colectate de la dispozitivele IoT prin intermediul senzorilor și sunt transmise către servere sau cloud-uri pentru stocare, prelucrare și analiză ulterioară.Comunicarea între dispozitivele IoT se realizează prin tehnologii de comunicație precum Wi-Fi, Bluetooth sau protocolul celular, permitând transferul de informații în mod eficient și rapid.Gateway-urile IoT servesc ca intermediari între dispozitivele locale și infrastructura de comunicație, asigurând conectivitatea și securitatea datelor transmise."
+            android:paddingTop="8dp" />
+
+        <!-- Subcapitol 3 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Beneficiile și aplicațiile sistemului IoT"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp" />
+
+        <!-- Conținut subcapitol 3 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sistemul IoT aduce o serie de beneficii și are aplicații diverse în diferite domenii. Printre beneficii se numără automatizarea și eficientizarea proceselor, monitorizarea și gestionarea de la distanță a dispozitivelor, colectarea și analiza datelor în timp real, optimizarea utilizării resurselor și îmbunătățirea experienței utilizatorului. Aplicațiile sistemului IoT sunt prezente în domenii precum domotica (case inteligente), sănătatea, agricultura, transportul, industria și multe altele."
+            android:paddingTop="8dp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forum" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Home" />
+
+    </LinearLayout>
+</ScrollView>

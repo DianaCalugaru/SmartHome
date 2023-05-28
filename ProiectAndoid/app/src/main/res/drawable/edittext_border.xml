@@ -1,0 +1,7 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFEFD5" /> <!-- Culoarea de fundal a chenarului -->
+    <stroke
+        android:width="2dp"
+     android:color="#AC06DD" />
+    <corners android:radius="8dp" /> <!-- Rotunjimea colțurilor chenarului -->
+</shape>

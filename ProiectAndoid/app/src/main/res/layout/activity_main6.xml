@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Activity.MainActivity6">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Please enter the rooms you want to be monitored"
+        android:textSize="20sp"
+        android:fontFamily="@font/allerta"
+        android:gravity="center"
+        android:textStyle="bold|italic"/>
+
+    <EditText
+        android:id="@+id/inputEditText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/titleTextView"
+        android:layout_marginTop="108dp"
+        android:background="@drawable/edittext_border"
+        android:gravity="center"
+        android:hint="Enter room types" />
+
+    <EditText
+        android:id="@+id/inputEditText1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/titleTextView"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/edittext_border"
+        android:gravity="center"
+        android:hint="Enter numbers" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputEditText"
+        android:layout_marginTop="58dp"
+        android:background="@drawable/custom_button"
+        android:text="Save" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="273dp"
+        android:layout_height="244dp"
+        android:layout_below="@+id/saveButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="141dp"
+        android:src="@drawable/img4" />
+
+</RelativeLayout>

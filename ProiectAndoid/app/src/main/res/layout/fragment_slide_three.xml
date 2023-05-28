@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEFD5"
+    tools:context=".Intro.SlideThree">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="173dp"
+        android:autoSizeMaxTextSize="30dp"
+        android:gravity="center"
+        android:fontFamily="@font/allerta"
+        android:text=" Our user-friendly interface makes it easy for you to manage your smart devices and create custom settings to suit your lifestyle. "
+        android:textSize="18dp"
+        android:textStyle="bold|italic"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="422dp"
+        android:layout_height="358dp"
+        android:layout_gravity="center"
+        android:outlineProvider="none"
+        android:src="@drawable/img3" />
+</FrameLayout>

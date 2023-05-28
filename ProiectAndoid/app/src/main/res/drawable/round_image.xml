@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/white" /> <!-- Culoarea de fundal transparentă -->
+    <corners android:radius="100dp" /> <!-- Radiusul de rotunjire a marginilor -->
+</shape>

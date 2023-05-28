@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Intro.SlideOne"
+    android:background="#FFEFD5">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="173dp"
+        android:autoSizeMaxTextSize="30dp"
+        android:gravity="center"
+        android:fontFamily="@font/allerta"
+        android:text="Welcome to our smart home application!"
+        android:textSize="18dp"
+        android:textStyle="bold|italic"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="370dp"
+        android:layout_height="358dp"
+        android:layout_gravity="center"
+        android:outlineProvider="none"
+        android:src="@drawable/img1" />
+
+</FrameLayout>

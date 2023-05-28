@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.SharedPref">
+
+    <EditText
+        android:id="@+id/idage"
+        android:layout_width="match_parent"
+        android:hint="Age"
+        android:layout_height="wrap_content">
+    </EditText>
+    <EditText
+        android:id="@+id/idcity"
+        android:layout_width="match_parent"
+        android:hint="City"
+        android:layout_height="wrap_content">
+    </EditText>
+    <EditText
+        android:id="@+id/idstud"
+        android:layout_width="match_parent"
+        android:hint="Studies"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <EditText
+        android:id="@+id/idopc"
+        android:layout_width="match_parent"
+        android:hint="Ocupation"
+        android:layout_height="wrap_content">
+    </EditText>
+
+
+    <Switch
+        android:id="@+id/idswitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="Was the information useful?" />
+
+    <Button
+        android:id="@+id/btnsave"
+        android:text="Save"
+        android:layout_width="138dp"
+        android:background="@drawable/custom_button"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/btninfo"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button"
+        android:text="Show Info"
+        android:layout_marginTop="16dp"
+    />
+
+    <TextView
+        android:id="@+id/idinfo"
+        android:layout_width="match_parent"
+
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:fontFamily="@font/allerta"
+        android:layout_height="200dp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button"
+        android:text="Back" />
+
+</LinearLayout>
